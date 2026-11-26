@@ -69,12 +69,13 @@ It is not affiliated with, endorsed by, or sponsored by Mojang Studios or Micros
 Minecraft is a trademark of Microsoft.
 
 The project is intended to respect the Minecraft EULA and Usage Guidelines.
+
 ## Screenshots
 
 ### Main Interface
 
 ### Instance Manager
-
+2026-11-26_14-13-48.png
 ### Modrinth Catalog
 
 ### Runtime Settings
