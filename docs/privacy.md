@@ -7,7 +7,7 @@ This is a draft for the Voxel Pulse 0.1.0 launcher and proposed project website.
 
 ## Project operator and privacy contact
 
-Voxel Pulse is operated by an individual developer, known publicly as Daniil. For privacy enquiries, contact [voxelpulse@outlook.com](mailto:voxelpulse@outlook.com). The operator's complete legal identity and any required address are not yet verified for this draft.
+Voxel Pulse is operated by Daniil Kuznetsov (Кузнецов Даниил), an individual developer based in Russia. For privacy enquiries, contact [voxelpulse@outlook.com](mailto:voxelpulse@outlook.com). Any additional legally required identification and contact address remain to be verified for this draft.
 
 ## Launcher and account data
 
@@ -31,6 +31,6 @@ See the [Microsoft privacy statement](https://privacy.microsoft.com/privacystate
 
 ## Items to resolve before publication
 
-Confirm the operator's complete legal identity and any required address, actual storage paths and retention periods, complete deletion and revocation behavior, analytics and crash reporting, all recipients, processing purposes and legal bases, international transfers, children's data and applicable user rights. The current static review does not establish absence of telemetry or all possible network traffic. Do not use this draft as a final policy.
+Confirm any additional legally required operator details and contact address, actual storage paths and retention periods, complete deletion and revocation behavior, analytics and crash reporting, all recipients, processing purposes and legal bases, international transfers, children's data and applicable user rights. The current static review does not establish absence of telemetry or all possible network traffic. Do not use this draft as a final policy.
 
 [Home](index.html)
