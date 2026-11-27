@@ -21,9 +21,13 @@ The inspected modules include endpoints for Modrinth, CurseForge, Mojang/Minecra
 
 Account-related log messages can contain a username. The diagnostic module contains redaction rules for common credential patterns, but this is not a guarantee that every log is anonymous. Do not post unredacted logs in public support channels.
 
-## Proposed website
+## Website
 
-The current website preview stores language, sound, volume and visual-effects preferences using browser local storage. Its release lookup contacts the GitHub API on request. The proposed GitHub Pages host records visitor IP addresses for security. See the [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+The website stores language, sound, volume and visual-effects preferences using browser local storage. Users can clear these preferences through browser site-data settings. The reviewed website code requests public releases from the GitHub API without browser credentials. No data collection forms or analytics scripts were found in that code; this does not establish the absence of processing by the hosting provider. GitHub Pages records visitor IP addresses for security. See the [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## Support
+
+If users contact the project by email or GitHub, their messages, contact or account details and voluntarily provided attachments may be processed to respond to their requests. Public GitHub issues are visible to other users. Do not publish passwords, authentication tokens or unredacted diagnostic logs. Support retention and deletion procedures remain to be verified.
 
 ## Third-party policies
 
