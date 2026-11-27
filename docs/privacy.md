@@ -9,6 +9,12 @@ This is a draft for the Voxel Pulse 0.1.0 launcher and proposed project website.
 
 Voxel Pulse is operated by Daniil Kuznetsov (Кузнецов Даниил), an individual developer based in Russia. For privacy enquiries, contact [voxelpulse@outlook.com](mailto:voxelpulse@outlook.com). Any additional legally required identification and contact address remain to be verified for this draft.
 
+## Approved design requirements
+
+The project owner has adopted the following design requirements: no developer-operated user account database; no advertising or analytics telemetry; no transmission of account tokens to the developer; diagnostic reports sent only at the user's initiative; and a means to delete account data on request. These are approved design requirements, not a certification that every current build complies. Deletion in external services and copies held by third parties may require separate action.
+
+Владелец проекта утвердил требования к разработке: отсутствие собственной серверной базы пользовательских аккаунтов, рекламной и аналитической телеметрии и передачи токенов разработчику; отправка диагностических отчётов только по инициативе пользователя; возможность удаления данных аккаунта по запросу. Это утверждённые требования, а не подтверждение соответствия каждой текущей сборки. Удаление данных в сторонних сервисах и их копиях может требовать отдельных действий.
+
 ## Launcher and account data
 
 The inspected 0.1.0 implementation uses Microsoft's OAuth device code flow and is designed not to collect Microsoft passwords directly. The implemented sign-in chain communicates with Microsoft identity, Xbox Live, Xbox XSTS and Minecraft Services, including entitlement and profile endpoints. Successful live sign-in and Minecraft API approval are not yet confirmed.
