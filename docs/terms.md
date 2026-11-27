@@ -5,6 +5,8 @@ title: Terms draft
 
 Voxel Pulse is an independent Minecraft Java Edition launcher and modpack manager under active development. It is not affiliated with or endorsed by Microsoft or Mojang Studios.
 
+Project contact: Daniil (individual developer), [voxelpulse@outlook.com](mailto:voxelpulse@outlook.com). Full legal operator details remain subject to verification before these terms take effect.
+
 Users must comply with applicable Minecraft terms and the terms of third-party services and content. The launcher is not intended to bypass Minecraft ownership verification. Live independent game launch and Minecraft API approval are not yet confirmed.
 
 See the [Minecraft EULA](https://www.minecraft.net/eula) and [Minecraft Usage Guidelines](https://www.minecraft.net/usage-guidelines).
