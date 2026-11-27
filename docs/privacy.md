@@ -23,7 +23,7 @@ The account record contains the Minecraft profile identifier and username, Xbox 
 
 ## Local storage and optional Prism integration
 
-In the inspected 0.1.0 build, the default Windows data directory is %APPDATA%/VoxelPulse (overridable). Built-in accounts are stored in config/accounts.dat. The optional Prism integration reads and can copy the existing Prism accounts.json into the launcher’s separate prism directory; DPAPI protection of the built-in store must not be assumed for this separate file. UI and CLI logs rotate at 5 MB with five archived files each. The diagnostic report writer prunes its matching local reports to ten. A static scan of 431 classes in 11 project JARs found no recognizable analytics SDK references or hard-coded developer telemetry endpoint; it does not rule out dynamic network destinations, native code, external software or changes in later builds.
+In the inspected 0.1.0 build, the default Windows data directory is %APPDATA%/VoxelPulse (overridable). Built-in accounts are stored in config/accounts.dat. The optional Prism integration reads and can copy the existing Prism accounts.json into the launcher’s separate prism directory; DPAPI protection of the built-in store must not be assumed for this separate file. UI and CLI logs rotate at 5 MB with five archived files each. The diagnostic report writer prunes its matching local reports to ten. A static scan of 431 classes in 12 project JARs found no recognizable analytics SDK references or hard-coded developer telemetry endpoint; it does not rule out dynamic network destinations, native code, external software or changes in later builds.
 
 ## Content and diagnostics
 
