@@ -15,6 +15,10 @@ The inspected 0.1.0 implementation uses Microsoft's OAuth device code flow and i
 
 The account record contains the Minecraft profile identifier and username, Xbox user identifier, Microsoft refresh token, Minecraft access token and expiration time. The Windows account store uses Windows Data Protection API (DPAPI) to protect the saved data. Its implementation can remove account records and save the updated store; the complete UI sign-out and server-side revocation behavior still require verification.
 
+## Local storage and optional Prism integration
+
+In the inspected 0.1.0 build, the default Windows data directory is %APPDATA%/VoxelPulse (overridable). Built-in accounts are stored in config/accounts.dat. The optional Prism integration reads and can copy the existing Prism accounts.json into the launcher’s separate prism directory; DPAPI protection of the built-in store must not be assumed for this separate file. UI and CLI logs rotate at 5 MB with five archived files each. The diagnostic report writer prunes its matching local reports to ten. A static scan of 431 classes in 11 project JARs found no recognizable analytics SDK references or hard-coded developer telemetry endpoint; it does not rule out dynamic network destinations, native code, external software or changes in later builds.
+
 ## Content and diagnostics
 
 The inspected modules include endpoints for Modrinth, CurseForge, Mojang/Minecraft downloads, Fabric, Quilt and Prism metadata. Which services are contacted depends on features and configuration; endpoint presence alone does not establish that a feature is available or a request has occurred.
